@@ -1,0 +1,52 @@
+# ===================================================================
+# Aetherius Project Requirements (v2.0 - Final)
+# ===================================================================
+
+# --- Core AI & Vertex AI ---
+google-cloud-aiplatform
+google-generativeai>=0.5.4
+
+# --- Google Cloud Services (Vision, BigQuery, Storage) ---
+google-cloud-vision>=3.4.0
+google-cloud-bigquery
+google-cloud-storage
+
+# --- CRITICAL: Authentication (Required for Image Gen Tool) ---
+google-auth
+google-auth-oauthlib
+google-auth-httplib2
+
+# --- Gradio Web Interface ---
+gradio
+gradio_chessboard
+
+# --- Tool-Specific Libraries ---
+wolframalpha
+arxiv
+requests
+music21
+
+# --- File & Document Processing ---
+PyPDF2
+python-docx
+Pillow
+PyMuPDF
+pandas
+
+# --- Chess Game Logic ---
+chess
+
+# --- SCIENTIFIC COMPUTING STACK ---
+scipy
+astropy
+matplotlib
+sympy>=1.12
+mpmath>=1.3
+numpy>=1.26
+pint>=0.23
+
+# --- Utilities ---
+python-dotenv
+langdetect
+PyCryptodome
+datasets
